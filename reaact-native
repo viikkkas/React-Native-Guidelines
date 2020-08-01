@@ -1,0 +1,8 @@
+To change the orientation : 
+Go to app.json, then
+change the orientation to either portrait, landscape or default(both)
+
+  import {useDimensions, useDeviceOrientation} from '@react-native-community/hooks';
+  
+  const {landscape} = useDeviceOrientation();
+  In styles use height/width : landscape? "100%" : "30%"
