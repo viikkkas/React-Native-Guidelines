@@ -1,3 +1,6 @@
+To start a new react-native app: 
+  open a terminal: expo init <app-name>
+
 To change the orientation : 
 Go to app.json, then
 change the orientation to either portrait, landscape or default(both)
