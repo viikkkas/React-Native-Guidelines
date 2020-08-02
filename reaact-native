@@ -14,4 +14,9 @@ change the orientation to either portrait, landscape or default(both)
 Platform specific code: 
  Platform.OS === "android" ? <do somethin> : <do something>;
  
+ or
+ 
+  import Constants from "expo-constants"
+  PaddingTop : Constants.StatusBarHeight
+ 
 To get icons for app goto google and search: expo icons and grab the code
