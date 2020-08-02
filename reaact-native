@@ -9,3 +9,9 @@ change the orientation to either portrait, landscape or default(both)
   
   const {landscape} = useDeviceOrientation();
   In styles use height/width : landscape? "100%" : "30%"
+
+
+Platform specific code: 
+ Platform.OS === "android" ? <do somethin> : <do something>;
+ 
+To get icons for app goto google and search: expo icons and grab the code
