@@ -1,3 +1,5 @@
+//file name is App.js; That's why App.js is exported
+
 import React, { useEffect } from "react";
 import * as ImagePicker from "expo-image-picker";
 
