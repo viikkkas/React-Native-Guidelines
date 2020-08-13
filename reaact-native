@@ -20,3 +20,5 @@ Platform specific code:
   PaddingTop : Constants.StatusBarHeight
  
 To get icons for app goto google and search: expo icons and grab the code
+
+To use expo permissions use : expo install expo-permissions
