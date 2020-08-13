@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Image } from "react-native";
 import * as ImagePicker from "expo-image-picker";
-import * as Permissions from "expo-permissions";
 
 import Screen from "./app/components/Screen";
 import { Button } from "react-native";
